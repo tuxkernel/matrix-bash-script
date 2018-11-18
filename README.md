@@ -31,7 +31,7 @@ You can use this bash script like screensaver-text when you're in any tty. Just 
 
 Then navigate to /usr/bin with cd command:
 
-**$ cd /usr/bin 
+**$ cd /usr/bin** 
 
 and change the owner:
 
