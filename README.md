@@ -11,15 +11,32 @@ This bash script reproduce some commands from "The Matrix" movies (Wachowski, EU
 
 **INSTALLATION AND EXECUTION:**
 
-This script requires bash and pv programs installed before (sudo apt-get install bash pv)
-then change the permissions on the file (sudo chmod +x matrix)
-finally just run as ./matrix
+This script requires bash and pv programs installed before:
+
+**$ sudo apt-get install bash pv**
+
+Then change the permissions on the file:
+
+**$ sudo chmod +x matrix**
+
+finally just run as:
+
+**$ ./matrix**
+
 That's all.
 
-You can use this bash script like screensaver-text when you're in any tty
-Just copy matrix file to /usr/bin (sudo cp matrix /usr/bin)
-then navigate to /usr/bin with cd command (cd /usr/bin) and
-change the owner (Example: sudo chown blackout:blackout matrix)
+You can use this bash script like screensaver-text when you're in any tty. Just copy matrix file to /usr/bin
+
+**$ sudo cp matrix /usr/bin**
+
+Then navigate to /usr/bin with cd command:
+
+**$ cd /usr/bin 
+
+and change the owner:
+
+**$ sudo chown blackout:blackout matrix**
+
 That's all.
 
 NOTE: This bash script is under development to enhance.
