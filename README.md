@@ -1,11 +1,15 @@
-NAME: Matrix bash script. Version: 0.01
+**Matrix bash script. Version: 0.01**
 
-DESCRIPTION: This bash script reproduce some commands from "The Matrix" movies (Wachowski, EUA, 1999-2003)
+**DESCRIPTION:**
+
+This bash script reproduce some commands from "The Matrix" movies (Wachowski, EUA, 1999-2003)
  
-REQUIREMENTS: bash (4.4.12 or above) 
-               pv (1.16 or above)
+**REQUIREMENTS:** 
 
-INSTALLATION AND EXECUTION:
++ bash (4.4.12 or above)
++ pv (1.16 or above)
+
+**INSTALLATION AND EXECUTION:**
 
 This script requires bash and pv programs installed before (sudo apt-get install bash pv)
 then change the permissions on the file (sudo chmod +x matrix)
