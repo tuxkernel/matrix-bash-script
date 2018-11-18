@@ -1,0 +1,165 @@
+#!/bin/bash
+
+# NAME: Matrix bash script. Version: 0.01
+#
+# DESCRIPTION: This bash script reproduce some commands from "The Matrix" movies (Wachowski, EUA, 1999-2003)
+# 
+# REQUIREMENTS: bash (4.4.12 or above) 
+#               pv (1.16 or above)
+#
+# INSTALLATION AND EXECUTION:
+#
+# This script requires bash and pv programs installed before (sudo apt-get install bash pv)
+# then change the permissions on the file (sudo chmod +x matrix)
+# finally just run as ./matrix
+# That's all.
+#
+# You can use this bash script like screensaver-text when you're in any tty
+# Just copy matrix file to /usr/bin (sudo cp matrix /usr/bin)
+# then navigate to /usr/bin with cd command (cd /usr/bin) and
+# change the owner (Example: sudo chown blackout:blackout matrix)
+# That's all.
+#
+# NOTE: This bash script is under development to enhance.
+#
+# Copyright (C) 2018 Noel Merino Hernández: noel_merino@yahoo.com.mx
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+clear
+echo " "
+echo " Call trans opt: received. 2-19-98 13:24:18 REC:Log>" | pv -qL 10
+sleep 1.5
+clear
+echo " "
+echo " Trace program: running" | pv -qL 10
+sleep 1.5
+clear
+echo " "
+echo " [312]555-0690" | pv -qL 10
+sleep 1.5
+clear
+echo " "
+echo " Wake up, Neo..." | pv -qL 10
+sleep 1.5
+clear
+echo " "
+echo " The Matrix has you..." | pv -qL 10
+sleep 1.5
+clear
+echo " "
+echo " Follow the white rabbit." | pv -qL 10
+sleep 1.5
+clear
+echo " "
+echo " Knock, knock, Neo." | pv -qL 10
+sleep 1.5
+clear
+echo " "
+echo " Call trans opt: received. 9-18-99 14:32:21 REC:Log>" | pv -qL 10
+sleep 1.5
+clear
+echo " "
+echo " WARNING: carrier anomaly" | pv -qL 10
+sleep 1.5
+clear
+echo " "
+echo " Trace program: running" | pv -qL 10
+sleep 1.5
+clear
+echo " "
+cat /usr/bin/system_failure.txt
+#echo " SYSTEM FAILURE"
+sleep 5
+clear
+echo " "
+echo " # nmap -v -sS -0 10.2.2.2" | pv -qL 10
+sleep 1
+echo " "
+echo " Starting nmap V. 2.54BETA25" | pv -qL 10
+sleep 1
+echo " Insufficient responses for TCP sequencing (3). OS detection maybe less" | pv -qL 10
+echo " accurate" | pv -qL 10
+sleep 1
+echo " Interesting ports on 10.2.2.2:" | pv -qL 10
+sleep 1
+echo " (The 1539 ports scanned but not shown below are in state: closed)" | pv -qL 10
+sleep 1
+echo " Ports	State	Service" | pv -qL 10
+echo " 22/tcp	open	ssh" | pv -qL 10
+sleep 1
+echo " "
+echo " No exact OS matches for host" | pv -qL 10
+sleep 1
+echo " "
+echo " Nmap run completed -- 1 IP adress (1 host up) scanneds" | pv -qL 10
+sleep 1
+echo " # sshnuke 10.2.2.2 -rootpw='Z1ON0101'" | pv -qL 10
+sleep 1
+echo " Connecting to 10.2.2.2:ssh ... successful." | pv -qL 10
+sleep 1
+echo " Attempting to exploit SSHv1 CRC32 ... successful." | pv -qL 10
+sleep 1
+echo " Reseting root password to 'ZION0101'." | pv -qL 10
+sleep 1
+echo " System open: Access Level <9>" | pv -qL 10
+sleep 1
+echo " # ssh 10.2.2.2 -1 root" | pv -qL 10
+sleep 1
+echo " root@10.2.2.2's password: XXXXXXXX" | pv -qL 10
+sleep 1
+echo " "
+echo " RRF-CONTROL> disable grid nodes 21-48" | pv -qL 10
+sleep 1
+echo " Warning: Disabling nodes 21-48 will disconnect sector 11 (27 nodes)" | pv -qL 10
+sleep 1
+echo " "
+echo "	ARE YOU SURE? (y/n)" | pv -qL 10
+sleep 1
+echo " "
+echo " Grid Node 21 offline..." | pv -qL 10
+echo " Grid Node 22 offline..." | pv -qL 10
+echo " Grid Node 23 offline..." | pv -qL 10
+echo " Grid Node 24 offline..." | pv -qL 10
+echo " Grid Node 25 offline..." | pv -qL 10
+echo " Grid Node 26 offline..." | pv -qL 10
+echo " Grid Node 27 offline..." | pv -qL 10
+echo " Grid Node 28 offline..." | pv -qL 10
+echo " Grid Node 29 offline..." | pv -qL 10
+echo " Grid Node 30 offline..." | pv -qL 10
+echo " Grid Node 31 offline..." | pv -qL 10
+echo " Grid Node 32 offline..." | pv -qL 10
+echo " Grid Node 33 offline..." | pv -qL 10
+echo " Grid Node 34 offline..." | pv -qL 10
+echo " Grid Node 35 offline..." | pv -qL 10
+echo " Grid Node 36 offline..." | pv -qL 10
+echo " Grid Node 37 offline..." | pv -qL 10
+echo " Grid Node 38 offline..." | pv -qL 10
+echo " Grid Node 39 offline..." | pv -qL 10
+echo " Grid Node 40 offline..." | pv -qL 10
+echo " Grid Node 41 offline..." | pv -qL 10
+echo " Grid Node 42 offline..." | pv -qL 10
+echo " Grid Node 43 offline..." | pv -qL 10
+echo " Grid Node 44 offline..." | pv -qL 10
+echo " Grid Node 45 offline..." | pv -qL 10
+echo " Grid Node 46 offline..." | pv -qL 10
+echo " Grid Node 47 offline..." | pv -qL 10
+echo " Grid Node 48 offline..." | pv -qL 10
+sleep 1.5
+echo " done!"
+clear
+while true
+do
+	sh /usr/bin/matrix
+done
