@@ -4,39 +4,60 @@
 #
 # DESCRIPTION: This bash script reproduce some commands from "The Matrix" movies (Wachowski, EUA, 1999-2003)
 # 
-# REQUIREMENTS: bash (4.4.12 or above) 
-#               pv (1.16 or above)
+# REQUIREMENTS: bash (4.4.12 or above) and pv (1.16 or above)
 #
 # INSTALLATION AND EXECUTION:
 #
-# This script requires bash and pv programs installed before (sudo apt-get install bash pv)
-# then change the permissions on the file (sudo chmod +x matrix)
-# finally just run as ./matrix
+# This script requires bash and pv programs installed before:
+#
+# $ sudo apt-get install bash pv
+#
+# Then change the permissions on the file:
+#
+# $ sudo chmod +x matrix
+#
+# Finally just run as:
+#
+# $ ./matrix
+#
+# You can use this bash script like screensaver-text when you're in any tty. Just copy matrix file to /usr/bin
+#
+# $ sudo cp matrix /usr/bin
+#
+# Then navigate to /usr/bin with cd command:
+# 
+# $ cd /usr/bin
+#
+# and change the owner. Example: 
+#
+# $ sudo chown blackout:blackout matrix
+#
+# Now move system_failure.txt file to /usr/bin
+#
+# $ sudo mv system_failure.txt /usr/bin
+#
+# Then navigate to /usr/bin with cd command:
+#
+# $ cd /usr/bin
+#
+# and change the owner. Example:
+#
+# $ sudo chown blackout:blackout system_failure.txt
+#
+# Finaly, just run as:
+#
+# $ matrix
+#
 # That's all.
 #
-# You can use this bash script like screensaver-text when you're in any tty
-# Just copy matrix file to /usr/bin (sudo cp matrix /usr/bin)
-# then navigate to /usr/bin with cd command (cd /usr/bin) and
-# change the owner (Example: sudo chown blackout:blackout matrix)
-# That's all.
+# Enjoy it!
 #
-# NOTE: This bash script is under development to enhance.
+# Tuxkernel...
 #
-# Copyright (C) 2018 Noel Merino Hernández: noel_merino@yahoo.com.mx
+# NOTE: This bash script is under development.
 #
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# any later version.
+# Copyright (C) 2018 Noel Merino Hernández: <noel_merino@yahoo.com.mx>
 #
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
 clear
 echo " "
 echo " Call trans opt: received. 2-19-98 13:24:18 REC:Log>" | pv -qL 10
