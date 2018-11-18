@@ -41,7 +41,15 @@ and change the owner. Example:
 
 **$ sudo chown blackout:blackout system_failure.txt**
 
+Finally, just run as:
+
+**$ matrix**
+
 That's all.
+
+Enjoy it!
+
+Tuxkernel...
 
 NOTE: This bash script is under development.
 
