@@ -1,15 +1,15 @@
 **Matrix bash script. Version: 0.01**
 
-**DESCRIPTION:**
+**Description:**
 
-This bash script reproduce some commands from "The Matrix" movies (Wachowski, EUA, 1999-2003) as screensaver-text
+This bash script reproduce some commands used in "The Matrix" movies (Wachowski, EUA, 1999-2003) and show you as screensaver-text
  
-**REQUIREMENTS:** 
+**Requirements:** 
 
 + bash (4.4.12 or above)
 + pv (1.16 or above)
 
-**INSTALLATION AND EXECUTION:**
+**Installation and execution:**
 
 This script requires bash and pv programs installed before:
 
@@ -52,5 +52,3 @@ Enjoy it!
 Tuxkernel...
 
 NOTE: This bash script is under development.
-
-Copyright (C) 2018 Noel Merino Hernández: <noel_merino@yahoo.com.mx>
