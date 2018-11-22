@@ -15,6 +15,10 @@ This script requires bash and pv programs installed before:
 
 **$ sudo apt-get install bash pv**
 
+Download with.
+
+$ wget 
+
 Then change the permissions on the file:
 
 **$ sudo chmod +x matrix**
