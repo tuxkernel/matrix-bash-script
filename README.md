@@ -11,48 +11,41 @@ This bash script reproduce some commands used in "The Matrix" movies (Wachowski,
 
 **Installation and execution:**
 
-This script requires bash and pv programs installed before:
+The script requires bash and pv programs installed before. Open a terminal and type:
 
 **$ sudo apt-get install bash pv**
 
-Download with.
+Then download it:
 
-$ wget 
+**$ wget https://github.com/tuxkernel/matrix-bash-script/archive/master.zip**
 
-Then change the permissions on the file:
+and unzip it:
 
-**$ sudo chmod +x matrix**
+**$ unzip master.zip**
 
-finally just run as:
+Navigate to directory:
 
-**$ ./matrix**
+**$ cd matrix-bash-script-master/**
 
-You can use this bash script like screensaver-text when you're in any tty. Just copy matrix file to /usr/bin
+Now move matrix bash script and system_failure.txt files to /usr/bin/:
 
-**$ sudo cp matrix /usr/bin**
+**$ sudo cp matrix system_failure.txt /usr/bin**
 
-Then navigate to /usr/bin with cd command:
+and make executable:
 
-**$ cd /usr/bin** 
+**$ sudo chmod +x /usr/bin/matrix**
 
-and change the owner. Example:
+and change the owner. For example:
 
-**$ sudo chown blackout:blackout matrix**
+**$ sudo chown blackout:blackout /usr/bin/matrix**
+**$ sudo chown blackout:blackout /usr/bin/system_failure.txt**
 
-Now move system_failure.txt file to /usr/bin
-
-and change the owner. Example:
-
-**$ sudo chown blackout:blackout system_failure.txt**
+NOTE: Change blackout:blackout for your user name.
 
 Finally, just run as:
 
 **$ matrix**
 
-That's all.
-
-Enjoy it!
+That's all. Enjoy it!
 
 Tuxkernel...
-
-NOTE: This bash script is under development.
