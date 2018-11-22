@@ -47,6 +47,10 @@ Finally, just run as:
 
 **$ matrix**
 
+You can stop it with:
+
+**CTRL + Z**
+
 That's all. Enjoy it!
 
 Tuxkernel...
