@@ -4,20 +4,9 @@
 
 This bash script reproduce some commands used in "The Matrix" movies (Wachowski, EUA, 1999-2003) and show you as screensaver-text.
 
-Live in action:
+Live in action (asciinema):
 
-https://asciinema.org/a/MOgbapM9cUa5GEp34SCsgNsJb
-
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="/asciinema-player.css" />
-</head>
-<body>
-  <asciinema-player src="/213235.json" cols="166" rows="41"></asciinema-player>
-  ...
-  <script src="/asciinema-player.js"></script>
-</body>
-</html>
+<https://asciinema.org/a/MOgbapM9cUa5GEp34SCsgNsJb>
  
 **Requirements:** 
 
