@@ -2,7 +2,11 @@
 
 **Description:**
 
-This bash script reproduce some commands used in "The Matrix" movies (Wachowski, EUA, 1999-2003) and show you as screensaver-text
+This bash script reproduce some commands used in "The Matrix" movies (Wachowski, EUA, 1999-2003) and show you as screensaver-text.
+
+Live in action:
+
+https://asciinema.org/a/MOgbapM9cUa5GEp34SCsgNsJb
  
 **Requirements:** 
 
