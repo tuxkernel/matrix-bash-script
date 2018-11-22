@@ -9,6 +9,8 @@ Live in action (asciinema):
 https://asciinema.org/a/MOgbapM9cUa5GEp34SCsgNsJb
 
 [![asciicast](https://asciinema.org/a/MOgbapM9cUa5GEp34SCsgNsJb.png)](https://asciinema.org/a/MOgbapM9cUa5GEp34SCsgNsJb)
+
+<asciinema-player src="/213235.json" cols="166" rows="41"></asciinema-player>
  
 **Requirements:** 
 
