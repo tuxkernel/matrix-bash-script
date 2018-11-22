@@ -7,6 +7,17 @@ This bash script reproduce some commands used in "The Matrix" movies (Wachowski,
 Live in action:
 
 https://asciinema.org/a/MOgbapM9cUa5GEp34SCsgNsJb
+
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/asciinema-player.css" />
+</head>
+<body>
+  <asciinema-player src="/213235.json" cols="166" rows="41"></asciinema-player>
+  ...
+  <script src="/asciinema-player.js"></script>
+</body>
+</html>
  
 **Requirements:** 
 
