@@ -38,6 +38,7 @@ and make executable:
 and change the owner. For example:
 
 **$ sudo chown blackout:blackout /usr/bin/matrix**
+
 **$ sudo chown blackout:blackout /usr/bin/system_failure.txt**
 
 NOTE: Change **blackout:blackout** for your user name.
