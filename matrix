@@ -1,4 +1,5 @@
 #!/bin/bash
+trap "exit" INT
 clear
 echo " "
 echo " Call trans opt: received. 2-19-98 13:24:18 REC:Log>" | pv -qL 10
